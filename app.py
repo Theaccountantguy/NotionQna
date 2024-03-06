@@ -268,7 +268,7 @@ if(selected == "Give"):
     url = 'https://ko-fi.com/theaccountantguy'
 
 # Create a markdown link that looks like a button
-    link = f'<a href="{url}" target="_blank"><button style="display: inline-block; background-color: #05bbe8; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer; border-radius: 5px;">🎁 Donate</button></a>'
+    link = f'<a href="{url}" target="_blank"><button style="display: inline-block; background-color: #00B9FE; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer; border-radius: 5px;">🎁 Donate</button></a>'
     st.markdown(link, unsafe_allow_html=True)
     components.html(
     """
