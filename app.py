@@ -51,7 +51,7 @@ with st.sidebar:
     # Sidebar API key input with a toggle
     # Links for additional actions or information
     #st.markdown("[Get an OpenAI API key](https://platform.openai.com/api-keys)")
-    #st.sidebar.write('<br>', unsafe_allow_html=True)
+    
     #components.html(
     #"""
     #<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate', '#29abe0', 'G2G1V9SV5');kofiwidget2.draw();</script> 
@@ -71,7 +71,7 @@ with st.sidebar:
     #""",
     #height=50
 #)
-
+    st.sidebar.write('<br>', unsafe_allow_html=True)
     st.sidebar.markdown("Made with ❤️ by [Sanat Biswal](https://theaccountantguy.gumroad.com/)", unsafe_allow_html=True)
     
 col1, col2 = st.columns([16, 4])
