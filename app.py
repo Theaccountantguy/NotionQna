@@ -265,6 +265,7 @@ if(selected == "Give"):
     st.markdown("""
         <p style='font-weight:normal;'>If you are looking to <strong>support</strong> my work, you can click on the <strong><u>Donate</u></strong> button below to donate any amount as you wish. 😊 <br><br> Thanks! 🙏</p>
     """, unsafe_allow_html=True)
+    st.button('🎁 Donate', on_click='https://ko-fi.com/theaccountantguy')
     components.html(
     """
     <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate', '#29abe0', 'G2G1V9SV5');kofiwidget2.draw();</script> 
