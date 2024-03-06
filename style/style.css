@@ -1,5 +1,11 @@
-#MainMenu {visibility: visible;}
-header {visibility: visible; #github-icon {
-    display: none;
-}}
+#MainMenu {
+    visibility: visible;
+}
 
+header {
+    visibility: visible;
+}
+
+.github-icon {
+    display: none;
+}
