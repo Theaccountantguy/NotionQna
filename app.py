@@ -57,15 +57,20 @@ with st.sidebar:
     #<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate', '#29abe0', 'G2G1V9SV5');kofiwidget2.draw();</script> 
     #""",
     #)
-    components.html(
-    """
-    <div style='width: 200px; height: 100px; transform: scale(1); transform-origin: top left;'>
-        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
-        <script type='text/javascript'>kofiwidget2.init('Donate', '#29abe0', 'G2G1V9SV5');kofiwidget2.draw();</script> 
-    </div>
-    """,
-    height=50
-)
+    url = 'https://ko-fi.com/theaccountantguy'
+
+# Create a markdown link that looks like a button
+    link = f'<a href="{url}" target="_blank"><button style="display: inline-block; background-color: #0291d9; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer; border-radius: 5px;">🎁 Donate</button></a>'
+    st.markdown(link, unsafe_allow_html=True)
+    #components.html(
+    #"""
+    #<div style='width: 200px; height: 100px; transform: scale(1); transform-origin: top left;'>
+    #    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+    #    <script type='text/javascript'>kofiwidget2.init('Donate', '#29abe0', 'G2G1V9SV5');kofiwidget2.draw();</script> 
+    #</div>
+    #""",
+    #height=50
+#)
 
     st.sidebar.markdown("Made with ❤️ by [Sanat Biswal](https://theaccountantguy.gumroad.com/)", unsafe_allow_html=True)
     
@@ -268,11 +273,11 @@ if(selected == "Give"):
     url = 'https://ko-fi.com/theaccountantguy'
 
 # Create a markdown link that looks like a button
-    link = f'<a href="{url}" target="_blank"><button style="display: inline-block; background-color: #00B9FE; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer; border-radius: 5px;">🎁 Donate</button></a>'
+    link = f'<a href="{url}" target="_blank"><button style="display: inline-block; background-color: #0291d9; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer; border-radius: 5px;">🎁 Donate</button></a>'
     st.markdown(link, unsafe_allow_html=True)
-    components.html(
-    """
-    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate', '#29abe0', 'G2G1V9SV5');kofiwidget2.draw();</script> 
-    """,
-    )
+    #components.html(
+    #"""
+    #<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Donate', '#29abe0', 'G2G1V9SV5');kofiwidget2.draw();</script> 
+    #""",
+    #)
    
