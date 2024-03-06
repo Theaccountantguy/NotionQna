@@ -32,7 +32,7 @@ lottie_hello = load_lottiefile("assets/hello.json")
 
 selected = option_menu(
     menu_title=None,
-    options=["Info","Chat","Donate"],
+    options=["Info","Chat","Give"],
     icons=["info-square","chat-dots","gift"],
     menu_icon="cast",
     default_index=0,
@@ -261,7 +261,7 @@ if(selected == "Info"):
     st.markdown("✉️ [ notionformyuse@gmail.com->](mailto:notionformyuse@gmail.com)")
     st.markdown("🌐 [ Twitter->](https://twitter.com/accountantguy21)")
 
-if(selected == "Donate"):
+if(selected == "Give"):
     st.markdown("""
         <p style='font-weight:normal;'>If you are looking to <strong>support</strong> my work, you can click on the <strong><u>Donate</u></strong> button below to donate any amount as you wish. 😊 <br><br> Thanks! 🙏</p>
     """, unsafe_allow_html=True)
