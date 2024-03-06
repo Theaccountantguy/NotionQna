@@ -1,3 +1,6 @@
+.github-icon {
+    display: none;
+}
 #MainMenu {visibility: visible;}
-header {visibility: visible;}
+header {visibility: hidden;}
 
