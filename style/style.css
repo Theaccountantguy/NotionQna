@@ -6,6 +6,8 @@ header {
     visibility: visible;
 }
 
-.github-icon {
-    display: none;
+
+#GithubIcon {
+  visibility: hidden;
 }
+
