@@ -157,7 +157,7 @@ for message in st.session_state.messages:
 #    st.info("Message limit exceeded")
 #    st.stop()
 
-if (prompt := st.chat_input("Type here (eg: \"How to add 2 numbers in Notion?\")")):
+if (prompt := st.chat_input("Type Notion formula question here ")):
     
     if not api_key_input:
         prompt_for_api_key()
