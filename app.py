@@ -20,12 +20,6 @@ user_image = "images/user.png"
 message_count = 0
 
 st.set_page_config(page_title="Notion Formula Chatbot", layout="wide", page_icon=pageimage)
-hide_st_style = """
-    <style>
-    footer{visibility: hidden;}
-    </style>
-    """
-st.markdown(hide_st_style, unsafe_allow_html=True)
 
 with open(CSS_FILE) as f:
     st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
