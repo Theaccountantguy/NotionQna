@@ -85,9 +85,10 @@ if file:
     user_image_path = file
 if(selected == "Chat"):
     with st.expander("⬇️ **Instructions**", expanded=False):  # Set to True if you want it expanded by default
+        st.video('https://youtu.be/83EfcTk5y7g')
         st.markdown("""
     Thank you for using the Notion Formula Bot! Follow the steps below to start using the bot:
-""")
+#""")
         st.write('**Step 1 :** Enter an **OpenAI key** on the left to activate the Chatbot.')
         st.write('**Step 2:** Select your desired **GPT Model** to interact with the bot.')
         st.markdown("""
