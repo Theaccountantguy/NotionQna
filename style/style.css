@@ -1,7 +1,7 @@
 #MainMenu {
-    visibility: hidden;
+    visibility: visible;
 }
 
 header {
-    visibility: visible;
+    visibility: hidden;
 }
