@@ -253,7 +253,7 @@ if(selected == "Info"):
         <h4 style='font-weight:heavy;'>🤖 What is Notion Formula Chatbot</h4>
     """, unsafe_allow_html=True)
     st.markdown("""
-        <p style='font-weight:normal;'>Notion Formula Bot simplifies your work by quickly solving your Notion formula-related queries. Simply type your formula query in the chat window and let the chatbot do the magic for you 🤩 </p>
+        <p style='font-weight:normal;'>Notion Formula Chatbot simplifies your work by quickly solving your Notion formula-related queries. Simply type your formula query in the chat window and let the chatbot do the magic for you 🤩 </p>
     """, unsafe_allow_html=True)
     st.markdown("""
         <p style='font-weight:normal;'>Navigate to the <u>chat section</u> above to get started now. </p>
