@@ -86,6 +86,7 @@ if file:
 if(selected == "Chat"):
     with st.expander("⬇️ **Instructions**", expanded=False):  # Set to True if you want it expanded by default
         st.video('https://youtu.be/83EfcTk5y7g')
+        st.write('<br>', unsafe_allow_html=True)
         st.markdown("""
     Thank you for using the Notion Formula Bot! Follow the steps below to start using the bot:
 #""")
