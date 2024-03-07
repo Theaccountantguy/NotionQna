@@ -259,7 +259,7 @@ if(selected == "Info"):
     st.markdown("""
         <p style='font-weight:normal;'>Navigate to the <u>chat section</u> above to get started now. </p>
     """, unsafe_allow_html=True)
-    st.markdown("[Watch here ->](https://theaccountantguy.gumroad.com/)")
+    st.markdown("[Watch here ->](https://youtu.be/83EfcTk5y7g)")
     st.markdown("<hr>", unsafe_allow_html=True)
     st.markdown("""
         <h4 style='font-weight:heavy;'>🤝 Connect with me</h4>
