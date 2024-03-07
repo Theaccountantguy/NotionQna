@@ -268,7 +268,7 @@ if(selected == "Info"):
 
 if(selected == "Give"):
     st.markdown("""
-        <p style='font-weight:normal;'>If you are looking to <strong>support</strong> my work, you can click on the <strong><u>Donate</u></strong> button below to donate any amount as you wish. 😊 <br><br> Thanks! 🙏</p>
+        <p style='font-weight:normal;'>If you would like to <strong>support</strong> my work, you can click on the <strong><u>Donate</u></strong> button below to donate any amount as you wish. 😊 <br><br> Thanks! 🙏</p>
     """, unsafe_allow_html=True)
     url = 'https://ko-fi.com/theaccountantguy'
     st.write('<br>', unsafe_allow_html=True)
