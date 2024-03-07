@@ -272,6 +272,7 @@ if(selected == "Give"):
     """, unsafe_allow_html=True)
     url = 'https://ko-fi.com/theaccountantguy'
     st.write('<br>', unsafe_allow_html=True)
+    st.write('<br>', unsafe_allow_html=True)
 # Create a markdown link that looks like a button
     link = f'<a href="{url}" target="_blank"><button style="display: inline-block; background-color: #0291d9; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer; border-radius: 5px;">🎁 Donate</button></a>'
     st.markdown(link, unsafe_allow_html=True)
