@@ -88,7 +88,7 @@ if(selected == "Chat"):
         st.video('https://youtu.be/83EfcTk5y7g')
         st.write('<br>', unsafe_allow_html=True)
         st.markdown("""
-    Thank you for checking out the Notion Formula Chatbot! Follow the steps below to start using the bot:
+    Thank you for using the Notion Formula Chatbot! Follow the steps below to start using the bot:
 #""")
         st.write('**Step 1 :** Enter an **OpenAI key** on the left to activate the Chatbot.')
         st.write('**Step 2:** Select your desired **GPT Model** to interact with the bot.')
