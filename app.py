@@ -45,7 +45,7 @@ if selected == "Chat":
         st.session_state.messages = [{"role": "assistant", "content": "How may I assist you today?"}]
 
 with st.sidebar:
-    api_key_input = st.text_input('**Enter API Key:**', type="password", placeholder="Enter API Key Here", help="Go to https://platform.openai.com/api-keys to generate your API key")
+    api_key_input = st.text_input('**Enter API Key:**', type="password", placeholder="Enter API Key Here (sk-...)", help="Go to https://platform.openai.com/api-keys to generate your API key")
     option = st.selectbox('**Select GPT Model:**',('gpt-3.5-turbo','gpt-4-1106-preview'), help=("1. For **free plan** of OpenAI, Select **'gpt-3.5-turbo'** (lower accuracy) \n 2. For **paid plan** of OpenAI, Select **'gpt-4-1106-preview'** (higher accuracy)"))
     file = st.file_uploader("**Add Your Image:** (Optional)",  type = ['png', 'jpg', 'jpeg'] ,label_visibility="visible",help=("This image will be visible in the chat window when you type questions (leave empty for default image)"))
     # Sidebar API key input with a toggle
