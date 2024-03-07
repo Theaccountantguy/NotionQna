@@ -71,7 +71,7 @@ with st.sidebar:
     #""",
     #height=50
 #)
-    st.sidebar.write('<br>', unsafe_allow_html=True)
+    #st.sidebar.write('<br>', unsafe_allow_html=True)
     st.sidebar.markdown("Made with ❤️ by [Sanat Biswal](https://theaccountantguy.gumroad.com/)", unsafe_allow_html=True)
     
 col1, col2 = st.columns([16, 4])
@@ -271,7 +271,7 @@ if(selected == "Give"):
         <p style='font-weight:normal;'>If you are looking to <strong>support</strong> my work, you can click on the <strong><u>Donate</u></strong> button below to donate any amount as you wish. 😊 <br><br> Thanks! 🙏</p>
     """, unsafe_allow_html=True)
     url = 'https://ko-fi.com/theaccountantguy'
-
+    st.write('<br>', unsafe_allow_html=True)
 # Create a markdown link that looks like a button
     link = f'<a href="{url}" target="_blank"><button style="display: inline-block; background-color: #0291d9; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; font-size: 16px; cursor: pointer; border-radius: 5px;">🎁 Donate</button></a>'
     st.markdown(link, unsafe_allow_html=True)
