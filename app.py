@@ -93,11 +93,9 @@ if(selected == "Chat"):
         st.write('**Step 1 :** Enter an **OpenAI key** on the left to activate the Chatbot.')
         st.write('**Step 2:** Select your desired **GPT Model** to interact with the bot.')
         st.markdown("""
-    <u>**Tutorial:**</u> 👉 Watch this **YouTube video** for instructions on setting up the bot correctly.
+    <u>**Tutorial:**</u> 👉 Watch this [**YouTube video**](https://youtu.be/83EfcTk5y7g) for instructions on setting up the bot correctly.
 """, unsafe_allow_html=True)
-        st.markdown("""
-    <u>**Note:**</u> How it works? 👇 \n1. **Free Plan**, limited to **<u>10 conversations</u>**\n\n2. **Paid Plan**, enjoy **<u>Unlimited Conversations</u>** (click on **Upgrade** above for paid plan 🚀)
-""", unsafe_allow_html=True)
+        
 if api_key_input:
     def test_openai_api_key(api_key_input):
         try:
